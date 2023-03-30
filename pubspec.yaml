@@ -1,0 +1,16 @@
+name: thumbhash_flutter
+version: 0.0.1
+homepage: https://github.com/gahms/thumbhash_flutter
+description: >
+  A pure dart implementation of the ThumbHash algorithm.
+  This package provides only a decoder.
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  image: ^4.0.8
+
+dev_dependencies:
+  lints: ^1.0.1
+  test: ^1.16.5

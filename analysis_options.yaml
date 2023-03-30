@@ -1,0 +1,15 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  errors:
+    missing_required_param: error
+    missing_return: error
+    sdk_version_async_exported_from_core: ignore
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    omit_local_variable_types: true
